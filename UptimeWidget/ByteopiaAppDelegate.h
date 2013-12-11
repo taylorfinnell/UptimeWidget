@@ -8,7 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ByteopiaAppDelegate : NSObject <NSApplicationDelegate>
+@interface ByteopiaAppDelegate : NSObject <NSApplicationDelegate> {
+	NSStatusItem *trayItem;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 
