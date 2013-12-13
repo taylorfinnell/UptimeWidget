@@ -16,7 +16,7 @@
 	[NSApp terminate:sender];
 }
 
-- (IBAction)testAction:(id)sender; {
+- (IBAction)showWindow:(id)sender; {
 	[_window makeKeyAndOrderFront:self];
     [NSApp activateIgnoringOtherApps:YES];
 }
@@ -47,7 +47,7 @@
        
         NSString* title = @"";
         if(days != 0){
-            title = [NSString stringWithFormat:@"%id %im", (int)days, (int)hours];
+            title = [NSString stringWithFormat:@"%id %ih", (int)days, (int)hours];
         }else {
             title = [NSString stringWithFormat:@"%ih %im", (int)hours, (int)minutes];
         }
@@ -72,6 +72,7 @@
 	[trayItem setMenu:menu];
 	[trayItem setHighlightMode:YES];
 	[trayItem setTitle:@"HH:MM"];
+    //[trayItem setHighlightMode:YES];
     
     NSDictionary *attributes = @{
                                  NSFontAttributeName: [NSFont fontWithName:@"Arial" size:8.0],

@@ -465,6 +465,7 @@
 				344FAA3B1858F35B008A6D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		344FAA3C1858F35B008A6D9D /* Build configuration list for PBXNativeTarget "UptimeWidgetTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +474,7 @@
 				344FAA3E1858F35B008A6D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
